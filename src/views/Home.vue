@@ -44,17 +44,22 @@
         </ul>
       </div>
     </div>
-    <div class="main bg-gray-200">Content</div>
-    <div class="aside bg-yellow-200">Side</div>
+    <div class="main bg-gray-50">
+      <div class="flex flex-col items-start pl-4"><CreditCard /></div>
+    </div>
+    <div class="aside bg-yellow-50"></div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import CreditCard from "@/components/CreditCard.vue";
 
 export default {
   name: "Home",
-  components: {},
+  components: {
+    CreditCard,
+  },
 };
 </script>
 

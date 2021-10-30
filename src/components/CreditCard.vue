@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20 h-screen bg-gray-300 px-2">
+  <div class="h-screen bg-gray-50 pt-3">
     <div
       class="
         max-w-md
