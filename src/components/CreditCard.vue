@@ -61,7 +61,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "CreditCard",
+};
 </script>
 
 <style></style>
